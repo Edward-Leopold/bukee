@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,, height=device-height initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;400;600;700&family=Roboto+Slab:wght@100;400;600;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+	<title>Bukee</title>
+
+	<!-- Cкрипты -->
+	<script src="https://kit.fontawesome.com/a8092b36b1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div id="home" class="page-main">
+		<header>
+			<!-- header панель -->
+			<div id="headerPanel" class="header-panel header-panel_margin">
+				<div class="wrap">
+					<div class="header-panel__logo">
+						<img src="img/Logo.svg" alt="logo">
+					</div>
+
+					<nav class="header-panel-nav burger-show">
+						<a href="#home" class="header-panel-nav__link active">Home</a>
+						<a href="#about" class="header-panel-nav__link">About</a>
+						<a href="#contents" class="header-panel-nav__link">Contents</a>
+						<a href="#books" class="header-panel-nav__link">Books</a>
+						<a href="#clients" class="header-panel-nav__link">Clients</a>
+						<a href="#contacts" class="header-panel-nav__link">Contact</a>
+					</nav>
+
+					<!-- бургер-меню -->
+				<div id="burger" class="burger">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+
+
+				<!-- обертка для бургера и его контента -->
+				<div id="burgerMenu" class="burger-cover">	
+						<!-- крестик -->
+						<span id="cross">&#10060;</span>
+					<!-- меню при нажатии на бургер (раскрытый бургер) -->
+					<nav class="header-panel-nav-burger">
+						<a href="#home" class="header-panel-nav-burger__link active">Home</a>
+						<a href="#about" class="header-panel-nav-burger__link">About</a>
+						<a href="#contents" class="header-panel-nav-burger__link">Contents</a>
+						<a href="#books" class="header-panel-nav-burger__link">Books</a>
+						<a href="" class="header-panel-nav-burger__link">Education</a>
+						<a href="" class="header-panel-nav-burger__link">Skills</a>
+						<a href="" class="header-panel-nav-burger__link">Portfolio</a>
+						<a href="#clients" class="header-panel-nav-burger__link">Clients</a>
+						<a href="#contacts" class="header-panel-nav-burger__link">Contact</a>
+
+						
+					</nav>
+				</div>
+			</div>
+			</div>
+
+	<!-- контент в header -->
+			<div id="headerContent" class="block-book wrap">
+				<div class="block-book-demo">
+					<div class="block-book-demo__img">
+						<div class="main-book-cover">
+							<h3 class="main-book-title">Good book</h3>
+							<p class="main-book-subtitle">Don’t judge a book by its cover</p>
+						</div>	
+						<p class="main-book-author">- By Emma Anderson</p>
+					</div>
+				</div>
+				
+				<div class="block-text">
+					<p class="block-text__name">- By Emma Anderson</p>
+					<div class="block-title">
+						<p class="block-title__title">BUKEE: THE BOOK</p>
+						<p class="block-title__subtitle">A room without books is like a body without a soul</p>
+					</div>
+					<p class="block-text__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					<p class="block-text__p">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut </p>
+					<a href="" class="block-text__btn main-btn">Buy this book - $15.00</a>
+					<small>* Some conditions may applicable</small>
+				</div>
+			</div>
+		</header>
+	</div>
+
+
+<!-- Блок об авторе
+=============================================================================================================================================================================================================================== -->	
+
+	<div id="about" class="about">
+		<section class="page">
+			<div class="wrap">
+				<div class="about-blocks">
+					<div class="block-text">						
+						<p class="block-text__name block-text__name_top">- Book Author</p>
+						<div class="block-title">
+							<p class="block-title__title  block-title__title_dark">Emma Anderson</p>
+							<p class="block-title__subtitle">A room without books is like a body without a soul</p>
+						</div>
+						<p class="block-text__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+						<p class="block-text__p">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut </p>
+						<a href="" class="block-text__btn main-btn">Read full biography</a>
+					</div>
+
+					<div class="block-photo">
+						<svg class="block-photo__svg" width="435" height="558">
+							<linearGradient id="gradient" gradientUnits="userSpaceOnUse"  x1="0" y1="0" x2="435" y2="558">
+								<stop  offset="0" style="stop-color:#426384"/>
+								<stop  offset="1" style="stop-color:#5acab1"/>
+							</linearGradient>
+							<rect width="435" height="558" x="0" y="0" fill="url(#gradient)"></rect>
+						</svg>
+
+						<img class="block-photo__img" src="img/author-img.jpg" alt="Author">
+					</div>
+				</div>
+	<!-- спиосок достижений -->
+				<div class="block-list">
+					<ul class="about-list">
+						<li class="about-list__item">
+							<p class="about-list__item-number">12</p>
+							<p class="about-list__item-text">Total published books</p>
+						</li>
+						<li class="about-list__item">
+							<p class="about-list__item-number">5</p>
+							<p class="about-list__item-text">Happy readers</p>
+						</li>
+						<li class="about-list__item">
+							<p class="about-list__item-number">15,000</p>
+							<p class="about-list__item-text">Happy readers</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+	</div>
+
+<!-- Блок Контент
+=============================================================================================================================================================================================================================== -->	
+
+	<div id="contents" class="contents">
+		<section class="page page_gray">
+			<div class="wrap">
+
+				<div class="block-title block-title_center">
+					<h2 class="block-title__title block-title__title_dark">Book Contents</h2>
+					<p class="block-title__subtitle">Let’s see what we have covered in the book</p>
+				</div>   
+				<div class="block-contents">
+
+					<div class="contents-part-1">
+						<div class="text-block">
+							<h3 class="text-block__title">About the book</h3>
+							<p class="text-block__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna ali qua. Ut enim ad minim veniam, quis nostrud exercitation ull amco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillu m dolore eu fugiat nulla pariatur. </p>
+							<div class="social">
+								<p  class="social__text">Featured in:</p>
+								<ul class="social-list">
+									<li class="social-list__item"><a href="#"><i class="fab fa-stack-overflow"></i></a></li>
+									<li class="social-list__item"><a href="#"><i class="fab fa-amazon"></i></a></li>
+									<li class="social-list__item"><a href="#"><i class="fab fa-sass"></i></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<div class="contents-part-2">
+							<div class="text-block">
+								<h3 class="text-block__title">Table of contents</h3>
+							</div>
+							<ol class="table-of-contents">
+								<li  class="table-of-contents__item">Lorem ipsum dolor sit amet</li>
+								<li class="table-of-contents__item">Consectetur adipisicing elit</li>
+								<li class="table-of-contents__item">Labore et dolore magna</li>
+								<li class="table-of-contents__item">Consectetur adipisicing elit</li>
+								<li class="table-of-contents__item">Labore et dolore magna</li>
+								<li class="table-of-contents__item">Lorem ipsum dolor sit amet</li>
+								<li class="table-of-contents__item">Consectetur adipisicing elit</li>
+								<li class="table-of-contents__item">Labore et dolore magna</li>
+								<li class="table-of-contents__item">Consectetur adipisicing elit</li>
+								<li class="table-of-contents__item">Labore et dolore magna</li>
+							</ol>	
+								<ol class="table-of-contents table-of-contents_next" id="moreContents" style="display: none;">
+									<li  class="table-of-contents__item">Lorem ipsum dolor sit amet</li>
+									<li class="table-of-contents__item">Consectetur adipisicing elit</li>
+									<li class="table-of-contents__item">Labore et dolore magna</li>
+									<li class="table-of-contents__item">Consectetur adipisicing elit</li>
+									<li class="table-of-contents__item">Labore et dolore magna</li>
+									<li class="table-of-contents__item">Lorem ipsum dolor sit amet</li>
+									<li class="table-of-contents__item">Consectetur adipisicing elit</li>
+									<li class="table-of-contents__item">Labore et dolore magna</li>
+									<li class="table-of-contents__item">Consectetur adipisicing elit</li>
+									<li class="table-of-contents__item">Labore et dolore magna</li>
+								</ol>
+							
+							<button class="main-btn" id="more">More</button>
+					</div>
+				</div>
+			</div>
+		</section>																																	
+	</div>
+
+<!-- Блок Книги
+=============================================================================================================================================================================================================================== -->	
+
+	<div id="books" class="books">
+		<div class="page">
+			<div class="wrap">
+				<div class="block-title block-title_center">
+					<h2 class="block-title__title block-title__title_dark">Other Books</h2>
+					<p class="block-title__subtitle">Some books you might be interested in</p>
+				</div>
+
+				<div class="block-books">
+					<div class="block-books-item">
+						<!-- книга -->
+						<div class="book-img">
+							<!-- текст на обложке книги -->
+							<div class="book-cover">
+								<h3 class="book-title">Inception</h3>
+								<p class="book-subtitle">Books are the best friends</p>
+							</div>	
+							<p class="book-author">- By Emma Anderson</p>
+						</div>
+						<!-- текст -->
+						<div class="text-block">
+							<h3 class="text-block__title">Inception</h3>
+							<p class="text-block__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.  </p>
+							<a href="" class="text-block__link">READ MORE</a>
+						</div>
+					</div>
+
+					<div class="block-books-item">
+						<!-- книга -->
+						<div class="book-img">
+							<!-- текст на обложке книги -->
+							<div class="book-cover">
+								<h3 class="book-title">Fight Club</h3>
+								<p class="book-subtitle">Books are the best friends</p>
+							</div>	
+							<p class="book-author">- By Emma Anderson</p>
+						</div>
+						<!-- текст -->
+						<div class="text-block">
+							<h3 class="text-block__title">Fight Club</h3>
+							<p class="text-block__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.  </p>
+							<a href="" class="text-block__link">READ MORE</a>
+						</div>
+					</div>
+
+					<div class="block-books-item">
+						<!-- книга -->
+						<div class="book-img">
+							<!-- текст на обложке книги -->
+							<div class="book-cover">
+								<h3 class="book-title">Daredevils</h3>
+								<p class="book-subtitle">Books are the best friends</p>
+							</div>	
+							<p class="book-author">- By Emma Anderson</p>
+						</div>
+						<!-- текст -->
+						<div class="text-block">
+							<h3 class="text-block__title">Daredevils</h3>
+							<p class="text-block__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.  </p>
+							<a href="" class="text-block__link">READ MORE</a>
+						</div>
+					</div>
+				</div>
+
+					<a href=""><button class="main-btn">Browse all books</button></a>
+				
+			</div>
+		</div>
+	</div>
+
+<!-- Блок со слайдером
+=============================================================================================================================================================================================================================== -->	
+
+	<div id="clients" class="slider">
+		<div class="page">
+			<div class="triangle-form-top"></div>
+			<div class="wrap">
+				<div class="block-slider">
+					<div>
+						<div class="block-slider-thumb">
+							<div class="block-slider-thumb__cover">
+								<img src="img/reviewer.jpg" alt="Reviewer">
+							</div>
+							<i class="fas fa-quote-right block-slider-thumb__quotes"></i>
+						</div>
+						<h3 class="block-slider__name">Kate Dennings</h3>
+						<p class="block-slider__pos">Calligraphy Expert</p>
+						<p class="block-slider__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+					</div>
+
+					<div>
+						<div class="block-slider-thumb">
+							<div class="block-slider-thumb__cover">
+								<img src="img/reviewer.jpg" alt="Reviewer">
+							</div>
+							<i class="fas fa-quote-right block-slider-thumb__quotes"></i>
+						</div>
+						<h3 class="block-slider__name">Kate Dennings</h3>
+						<p class="block-slider__pos">Calligraphy Expert</p>
+						<p class="block-slider__text">
+							Далеко-далеко за словесными, горами в стране гласных и согласных живут рыбные тексты. Напоивший переписали назад города парадигматическая, щеке взобравшись вдали имеет по всей грамматики продолжил своего, ведущими раз свое о рукопись его прямо?
+							Ее силуэт переулка, заголовок пустился своего залетают которой пояс, пунктуация снова, свое эта страна заглавных путь прямо жизни! Буквенных лучше заглавных гор грамматики ее. Безопасную повстречался своих злых рыбного обеспечивает?
+							То, заголовок, знаках своих снова рыбными необходимыми. До, щеке? Оксмокс лучше, инициал свое последний послушавшись мир алфавит там строчка безопасную. Все журчит гор вдали запятых даже знаках дал наш точках.
+							Запятой, до о прямо что несколько ipsum свой языкового снова продолжил рот предупреждал вопрос рукописи, заманивший. Рукописи всеми, раз они даль оксмокс рекламных взгляд использовало меня ведущими безорфографичный обеспечивает пояс.
+							Подзаголовок дороге безопасную языком, дал запятой продолжил последний страну снова запятых lorem рыбными текста однажды. Страна большой семантика приставка большого рыбного это на берегу деревни. Языкового журчит большой власти сбить агентство!
+							Прямо переулка жаренные ручеек пояс, залетают, взгляд вопроса большого встретил дорогу это, безопасную? Переписали, скатился вопроса дал проектах собрал страну он парадигматическая возвращайся семь сих дорогу не до заголовок безопасную?
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+					</div>
+
+					<div>
+						<div class="block-slider-thumb">
+							<div class="block-slider-thumb__cover">
+								<img src="img/reviewer.jpg" alt="Reviewer">
+							</div>
+							<i class="fas fa-quote-right block-slider-thumb__quotes"></i>
+						</div>
+						<h3 class="block-slider__name">Kate Dennings</h3>
+						<p class="block-slider__pos">Calligraphy Expert</p>
+						<p class="block-slider__text">
+							Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut repellat cumque iste, ullam saepe autem, soluta doloribus accusamus ratione inventore non ea repudiandae, itaque, minus. Harum eum eius assumenda, quis.
+							Nulla commodi praesentium at vitae et ullam aspernatur voluptatem obcaecati saepe cum non deleniti repellendus, consequatur magnam maxime iusto. Quidem reiciendis ratione dolor mollitia sunt eligendi ab debitis asperiores iusto.
+							Quibusdam sunt, officiis tenetur voluptatum velit pariatur nulla nisi laboriosam adipisci a eaque voluptatem assumenda provident cupiditate, similique magni mollitia eum, qui suscipit iusto tempore. Officiis tempore non dolorem ad!
+							Eveniet, magni molestiae iure excepturi iste rerum nulla vitae obcaecati consequuntur quas aliquam deleniti modi placeat nostrum ipsam numquam cum, aut doloribus beatae repellendus voluptate corporis in. Modi, quam, amet.
+							Impedit nihil ipsa nesciunt ratione voluptas fugiat, alias pariatur in exercitationem laboriosam cumque aliquid id excepturi doloribus placeat cupiditate minus illum. Cumque magni corporis eum nam consequatur, et? Qui, minus.
+							Sint culpa quod assumenda illo est odit dicta laborum aliquid consequatur deserunt eveniet aperiam iure, dolorum quaerat, rerum qui nobis nostrum sit, saepe quas! Placeat asperiores, voluptatum nobis nisi consectetur.
+							Id quo natus dolorem, sequi laboriosam officiis iste, tempore blanditiis deleniti. Commodi sapiente qui excepturi, debitis ratione ullam neque magni nesciunt delectus temporibus pariatur in ut, tempora aspernatur, culpa, quas?
+							Ea necessitatibus dolore rerum eaque vitae nulla modi dolor fugit, cum vel facere velit possimus! Tenetur dignissimos, nam debitis quasi quas ducimus odit saepe, perferendis unde, accusantium vitae quam aspernatur.
+							Sequi illum laudantium suscipit corporis voluptatem asperiores odit pariatur, praesentium saepe quos qui optio recusandae impedit expedita unde, a architecto cupiditate molestias perferendis exercitationem. Assumenda commodi aspernatur, nihil adipisci numquam.
+							Praesentium ea est atque, culpa quidem ipsa dignissimos nam soluta quia minus. Voluptate, at vero error architecto, a excepturi ipsam inventore temporibus adipisci commodi nisi, labore facere corrupti officia similique?
+
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+					</div>
+					<div>
+						<div class="block-slider-thumb">
+							<div class="block-slider-thumb__cover">
+								<img src="img/reviewer.jpg" alt="Reviewer">
+							</div>
+							<i class="fas fa-quote-right block-slider-thumb__quotes"></i>
+						</div>
+						<h3 class="block-slider__name">Kate Dennings</h3>
+						<p class="block-slider__pos">Calligraphy Expert</p>
+						<p class="block-slider__text">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sit amet distinctio atque saepe repellat maxime odit, nesciunt quos temporibus ipsum necessitatibus nisi officiis, culpa, dolorem cum, esse fugiat explicabo!
+							Quos eius soluta, maxime reiciendis adipisci inventore accusantium alias ad est nisi explicabo consequatur repudiandae voluptates tempora. Vel, molestiae. Sunt, animi quisquam, eos delectus possimus consequuntur quis a dolor placeat.
+							Quasi distinctio illo, adipisci maiores minus ipsa, repellendus, harum quas animi illum vero! Tenetur deleniti ab pariatur, ut id ducimus nostrum fugiat assumenda sed sapiente, eius atque hic illo nihil!
+
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+					</div>
+					<div>
+						<div class="block-slider-thumb">
+							<div class="block-slider-thumb__cover">
+								<img src="img/reviewer.jpg" alt="Reviewer">
+							</div>
+							<i class="fas fa-quote-right block-slider-thumb__quotes"></i>
+						</div>
+						<h3 class="block-slider__name">Kate Dennings</h3>
+						<p class="block-slider__pos">Calligraphy Expert</p>
+						<p class="block-slider__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+					</div>
+					<div>
+						<div class="block-slider-thumb">
+							<div class="block-slider-thumb__cover">
+								<img src="img/reviewer.jpg" alt="Reviewer">
+							</div>
+							<i class="fas fa-quote-right block-slider-thumb__quotes"></i>
+						</div>
+						<h3 class="block-slider__name">Kate Dennings</h3>
+						<p class="block-slider__pos">Calligraphy Expert</p>
+						<p class="block-slider__text">
+							Lorem ipsum, dolor sit, amet consectetur adipisicing elit. Asperiores non aliquam ad adipisci, iure tenetur optio sapiente, voluptatem ratione magnam corrupti totam ut soluta vero dolorum culpa, perspiciatis odio consectetur?
+							Officia quam minus eum est, quae ab, voluptatum veniam dolor. Quos ad corporis minima iusto neque saepe laborum deserunt, repellat ipsam ea debitis voluptate fuga sit aliquam veritatis provident excepturi.
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+					</div>
+					<div>
+						<div class="block-slider-thumb">
+							<div class="block-slider-thumb__cover">
+								<img src="img/reviewer.jpg" alt="Reviewer">
+							</div>
+							<i class="fas fa-quote-right block-slider-thumb__quotes"></i>
+						</div>
+						<h3 class="block-slider__name">Kate Dennings</h3>
+						<p class="block-slider__pos">Calligraphy Expert</p>
+						<p class="block-slider__text">L
+							Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis, sapiente maiores sint perspiciatis maxime omnis quod delectus architecto similique, impedit dolores excepturi non. Fugit, non placeat, officiis molestias in dolore?
+							Quos, qui, hic. Ratione animi obcaecati, nesciunt fugit aperiam vitae soluta molestiae, at sequi neque impedit blanditiis suscipit. Natus dolore sapiente, unde? Dolorem quae iusto nostrum fuga reiciendis soluta laborum.
+							At dicta commodi ut cumque nulla sed officia obcaecati. Quae tempora sapiente, laborum qui eius. Illo modi exercitationem, dignissimos a autem dolores voluptates esse ratione quo corrupti, vitae, eum molestiae.
+							Vel dignissimos cum totam quia error, repellendus fuga ipsum voluptas consequuntur dolor necessitatibus repellat vitae unde maiores suscipit debitis perferendis sed placeat, tempore rem perspiciatis? Fugit quasi tempore commodi, inventore.
+							Reprehenderit ea dolorum labore excepturi, ut eos. Distinctio molestiae exercitationem accusantium, quo labore atque sapiente maiores dolores aliquid quaerat ipsa assumenda, non. Odit, harum molestiae unde aliquid incidunt, obcaecati ab.
+							Explicabo, incidunt adipisci, eveniet, suscipit inventore laudantium maxime quasi accusantium odio quia esse illo numquam ea. Dolor fugiat voluptates fuga excepturi laudantium ratione vel! Officiis tenetur iusto minus. Commodi, dicta.
+						orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+					</div>
+				</div>
+			</div>
+			<div class="triangle-form-bottom"></div>
+		</div>
+	</div>
+
+<!-- Блок с блогом (Events)
+=============================================================================================================================================================================================================================== -->	
+	<div class="events">
+		<section class="page">
+			<div class="wrap">
+				<div class="about-blocks">
+					<div class="block-photo">
+						<svg class="block-photo__svg" width="435" height="704">
+							<linearGradient id="gradient" gradientUnits="userSpaceOnUse"  x1="0" y1="0" x2="435" y2="704">
+								<stop  offset="0" style="stop-color:#426384"/>
+								<stop  offset="1" style="stop-color:#5acab1"/>
+							</linearGradient>
+							<rect width="435" height="704" x="0" y="0" fill="url(#gradient)"></rect>
+						</svg>
+
+						<img class="block-photo__img" src="img/author-img1.jpg" alt="Author">
+					</div>
+
+					<div class="block-text">						
+						<p class="block-text__name block-text__name_top">- Emma Anderson</p>
+						<div class="block-title">
+							<p class="block-title__title  block-title__title_dark">Upcoming Events</p>
+							<p class="block-title__subtitle">Some upcoming events you might be interested in</p>
+						</div>
+
+						<div class="block-blog block-blog_marg">
+							<p class="block-blog__data">November 21, 2018</p>
+							<h4 class="block-blog__title">Book signing - San francisco, CA</h4>
+							<p class="block-text__p block-text__p_blog">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspen disse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+							<a href="" class="main-btn">Register</a>
+						</div>
+
+						<div class="block-blog block-blog_marg">
+							<p class="block-blog__data">November 21, 2018</p>
+							<h4 class="block-blog__title">Book reading - Los Angeles, CA</h4>
+							<p class="block-text__p block-text__p_blog">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspen disse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+							<a href="" class="main-btn">Register</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+
+
+<!-- Блок с блогом 2
+=============================================================================================================================================================================================================================== -->	
+	<div class="blog">
+		<div class="page page_gray">
+			<div class="wrap">
+				<div class="block-title block-title_center">
+					<h2 class="block-title__title block-title__title_dark">Latest from Blog</h2>
+					<p class="block-title__subtitle">Some of the latest posts from my personal blog</p>
+				</div>
+
+				<div class="blogs">
+					<div class="block-text">
+						<div class="block-blog block-blog_blogs">
+							<div>
+								<div class="blog-img">
+									<img src="img/blog1.jpg" alt="">
+								</div>
+								<h4 class="block-blog__title">Importance of light in photography</h4>
+								<p class="block-text__p">By <span class="block-blog__author">Emma Anderson - June 20, 2018</span></p>
+								<p class="block-text__p block-text__p_blog">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspen disse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.  </p>
+							</div>
+						</div>
+
+						<div class="block-blog block-blog_blogs">
+							<div>
+								<div class="blog-img">
+									<img src="img/blog2.jpg" alt="">
+								</div>
+								<h4 class="block-blog__title">The tools you need for the perfection</h4>
+								<p class="block-text__p">By <span class="block-blog__author">Emma Anderson - June 25, 2018</span></p>
+								<p class="block-text__p block-text__p_blog">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspen disse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.  </p>
+							</div>
+						</div>
+
+						<div class="block-blog block-blog_blogs">
+							<div>
+								<div class="blog-img">
+									<img src="img/blog3.png" alt="">
+								</div>
+								<h4 class="block-blog__title">Knowing the difference is important</h4>
+								<p class="block-text__p">By <span class="block-blog__author">Emma Anderson - June 22, 2018</span></p>
+								<p class="block-text__p block-text__p_blog">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspen disse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.  </p>
+							</div>
+						</div>
+					</div>	
+				</div>
+
+				<a href=""><button class="main-btn">Read more in the blog</button></a>
+
+			</div>
+		</div>
+	</div>
+
+<!-- Блок c формой
+=============================================================================================================================================================================================================================== -->	
+	<div id="contacts" class="letter">
+		<div class="page">
+			<div class="wrap">
+				<div class="block-letter">
+					<div class="block-letter__text">
+						<h2 class="block-title__title block-title__title_dark">Join Newsletter</h2>
+						<div class="block-text">
+							<div class="block-text__p">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspen disse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. 
+							</div>
+						</div>
+					</div>
+					
+					<form action="" class="block-letter__form">
+						<input type="mail" class="block-letter__input" placeholder="Enter your email">
+						<button class="main-btn">Subscribe</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<!-- Блок Футер 
+=============================================================================================================================================================================================================================== -->	
+
+	<footer class="footer">
+		<div class="wrap">
+			<div class="block-footer">
+				<div class="block-footer-item-1">
+					<div class="block-footer__logo">
+						<img src="img/Logo.svg" alt="logo">
+					</div>
+
+					<p class="block-footer__p">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					<p class="block-footer__p">© 2018 Bukee Private Limited.</p>
+				</div>
+
+				<div class="block-footer-item-2">
+					<h3 class="block-footer__title">Useful Links</h3>
+					<ul class="block-footer__list">
+						<li><a href="">About Bukee</a></li>
+						<li><a href="">Explore Our Ecosystem</a></li>
+						<li><a href="">Monthly Community Meetup</a></li>
+						<li><a href="">Privacy Policy</a></li>
+					</ul>
+				</div>
+
+				<div class="block-footer-item-2">
+					<h3 class="block-footer__title">Our Contacts</h3>
+					<ul class="block-footer__list">
+						<li><a href="">Amphitheatre Parkway, CA, 94043</a></li>
+						<li><a href="">Call us on: +4455663322</a></li>
+						<li><a href="">Email: support@bukee.mail</a></li>
+					</ul>
+					<div class="block-footer__social">
+						<a href=""><i class="fab fa-facebook-f"></i></a>
+						<a href=""><i class="fab fa-twitter"></i></a>
+						<a href=""><i class="fab fa-twitch"></i></a>
+						<a href=""><i class="fab fa-youtube"></i></a>
+						<a href=""><i class="fab fa-slack-hash"></i></a>
+						<a href=""><i class="fab fa-whatsapp"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+<!-- Скрипты -->
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			  $('.block-slider').slick({
+			  	dots: true,
+			  	arrows: false,
+			  	 adaptiveHeight: true
+			  });
+
+
+			 
+			  $(window).scroll(function(){
+			  	 const headerOffset = $(".page-main").outerHeight();
+			  console.log(headerOffset);
+			  	const scrolled = $(window).scrollTop();
+			  	console.log(scrolled);
+
+			  	if (scrolled > headerOffset) {
+			  		$("#headerPanel").addClass("nav-fixed");
+			  	} else if (scrolled < headerOffset) {
+			  		$("#headerPanel").removeClass("nav-fixed");
+			  	}
+			  });
+			
+			$("#more").click(function(){
+				$("#moreContents").fadeIn();
+				$("#more").hide();
+			});
+
+			$("#burger").click(function(){
+				$("#burgerMenu").addClass("show");
+				$("#cross").click(function (){
+					$("#burgerMenu").removeClass("show");
+				})
+				$(".header-panel-nav-burger__link").click(function (){
+					$("#burgerMenu").removeClass("show");
+				})
+				$("#burger").toggleClass("burger-active");
+			});
+
+		});	
+	</script>
+
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
